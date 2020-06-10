@@ -3,7 +3,7 @@ package org.niki.simplearithmeticprogs;
 public class Prime {
 
 	public static void main(String[] args) {
-		int n = 7;
+		int n = 528;
 		int sum = 0;
 		for (int i = 1; i <= n; i++) {
 			boolean isPrime = prime(i);
