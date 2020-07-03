@@ -1,11 +1,12 @@
 package org.niki.patternprograms;
 
-import java.util.Scanner;
+import java.util.*;
 
 public class Pattern3 {
 
 	public static void main(String[] args) {
 		System.out.println("enter the value of n");
+
 		Scanner scanner = new Scanner(System.in);
 		int m = scanner.nextInt();
 		int n = 3, st = 1, sp = n - 1;
